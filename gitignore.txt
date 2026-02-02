@@ -1,0 +1,104 @@
+############################################
+# OS / Desktop & OneDrive noise
+############################################
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.log
+*.swp
+*.swo
+
+# OneDrive placeholders
+*.lnk
+*.url
+
+############################################
+# IDE / Editors
+############################################
+# IntelliJ / IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+.history/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+############################################
+# Java / Maven
+############################################
+# Entire build output
+target/
+
+# Maven reports (often under target/)
+**/surefire-reports/
+**/failsafe-reports/
+**/jacoco.exec
+**/jacoco/*.exec
+
+############################################
+# Playwright / Test Artifacts
+############################################
+# Node ecosystem
+node_modules/
+package-lock.json
+
+# Playwright caches and outputs
+playwright/.cache/
+**/test-results/
+**/playwright-report/
+**/playwright-report.zip
+
+# Common artifacts in UI test frameworks
+**/screenshots/
+**/videos/
+**/traces/
+**/reports/
+**/output/
+**/allure-results/
+**/allure-report/
+
+############################################
+# Logs and temp
+############################################
+*.log
+logs/
+*.pid
+*.seed
+*.out
+
+############################################
+# Docker
+############################################
+# Keep Dockerfiles and compose YAMLs tracked
+# (no ignores here unless you generate temp files)
+*.env.local
+*.env.*.local
+
+############################################
+# Keep only folder names under target/
+# (Use .gitkeep inside the folders you want to keep visible)
+############################################
+# Re-assert ignore for everything in target
+target/**
+
+# Allow .gitkeep so you can keep folder names
+!target/.gitkeep
+!target/**/.gitkeep
+
+# If you intentionally want the top-level target subfolders present
+# but *not* their contents, put a .gitkeep into each one you want to keep.
+# Example (you will create these files):
+#   target/reports/.gitkeep
+#   target/screenshots/.gitkeep
+#   target/videos/.gitkeep
+#   target/traces/.gitkeep
+#   target/test-classes/.gitkeep
+#   target/classes/.gitkeep
