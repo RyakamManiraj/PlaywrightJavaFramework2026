@@ -1,0 +1,28 @@
+# Use Playwright Java base image
+FROM mcr.microsoft.com/playwright/java:v1.47.0-jammy
+
+# Set working directory
+WORKDIR /app
+
+# Copy pom.xml first (for caching)
+COPY pom.xml .
+
+# Copy Maven wrapper
+COPY mvnw .
+COPY .mvn .mvn
+RUN chmod +x mvnw
+
+# Install Maven dependencies offline (faster builds)
+RUN ./mvnw dependency:go-offline
+
+# Copy source code
+COPY src ./src
+
+# Build project without running tests
+RUN ./mvnw clean install -DskipTests
+
+# Install Playwright browsers
+#RUN npx playwright install --with-deps
+
+# Default command to run tests
+CMD ["./mvnw", "test"]

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-29T23:50:59 IST" name="Automation Suite" finished-at="2026-01-29T23:58:54 IST" duration-ms="474176">
+    <groups>
+    </groups>
+    <test started-at="2026-01-29T23:50:59 IST" name="All Tests" finished-at="2026-01-29T23:58:54 IST" duration-ms="474176">
+      <class name="com.hcl.tests.InternetHerokuAppE2ETests">
+        <test-method is-config="true" signature="beforeTestClass()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:55:07 IST" name="beforeTestClass" finished-at="2026-01-29T23:55:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:55:07 IST" name="setup" finished-at="2026-01-29T23:55:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:55:07 IST" name="setup" finished-at="2026-01-29T23:55:21 IST" duration-ms="13772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.InternetHerokuAppE2ETests.testBrowserBackForward()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testBrowserBackForward()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:55:21 IST" name="testBrowserBackForward" finished-at="2026-01-29T23:55:29 IST" duration-ms="8064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserBackForward -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:55:29 IST" name="tearDown" finished-at="2026-01-29T23:56:01 IST" duration-ms="31623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBrowserBackForward status=SUCCESS method=InternetHerokuAppE2ETests.testBrowserBackForward()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:56:01 IST" name="setup" finished-at="2026-01-29T23:56:15 IST" duration-ms="14000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.InternetHerokuAppE2ETests.testDropdownSelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDropdownSelection()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:56:15 IST" name="testDropdownSelection" finished-at="2026-01-29T23:56:22 IST" duration-ms="7233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownSelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:56:22 IST" name="tearDown" finished-at="2026-01-29T23:56:53 IST" duration-ms="31429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDropdownSelection status=SUCCESS method=InternetHerokuAppE2ETests.testDropdownSelection()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:56:53 IST" name="setup" finished-at="2026-01-29T23:57:02 IST" duration-ms="8204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.InternetHerokuAppE2ETests.testFileUpload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFileUpload()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:02 IST" name="testFileUpload" finished-at="2026-01-29T23:57:09 IST" duration-ms="7371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUpload -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:09 IST" name="tearDown" finished-at="2026-01-29T23:57:10 IST" duration-ms="1207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFileUpload status=SUCCESS method=InternetHerokuAppE2ETests.testFileUpload()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:10 IST" name="setup" finished-at="2026-01-29T23:57:26 IST" duration-ms="16277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.InternetHerokuAppE2ETests.testJSAlert()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testJSAlert()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:26 IST" name="testJSAlert" finished-at="2026-01-29T23:57:34 IST" duration-ms="7187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJSAlert -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:34 IST" name="tearDown" finished-at="2026-01-29T23:57:35 IST" duration-ms="1479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testJSAlert status=SUCCESS method=InternetHerokuAppE2ETests.testJSAlert()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:35 IST" name="setup" finished-at="2026-01-29T23:57:44 IST" duration-ms="9269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.InternetHerokuAppE2ETests.testLoginAndFlashMessage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginAndFlashMessage()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:44 IST" name="testLoginAndFlashMessage" finished-at="2026-01-29T23:57:55 IST" duration-ms="10404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAndFlashMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:55 IST" name="tearDown" finished-at="2026-01-29T23:57:59 IST" duration-ms="4716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginAndFlashMessage status=SUCCESS method=InternetHerokuAppE2ETests.testLoginAndFlashMessage()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:57:59 IST" name="setup" finished-at="2026-01-29T23:58:29 IST" duration-ms="30003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.InternetHerokuAppE2ETests.testNavigationAndVisibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationAndVisibility()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:58:29 IST" name="testNavigationAndVisibility" finished-at="2026-01-29T23:58:37 IST" duration-ms="7286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationAndVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:58:37 IST" name="tearDown" finished-at="2026-01-29T23:58:38 IST" duration-ms="1131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigationAndVisibility status=SUCCESS method=InternetHerokuAppE2ETests.testNavigationAndVisibility()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:58:38 IST" name="setup" finished-at="2026-01-29T23:58:44 IST" duration-ms="6559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.InternetHerokuAppE2ETests.testNestedFrames()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNestedFrames()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:58:44 IST" name="testNestedFrames" finished-at="2026-01-29T23:58:52 IST" duration-ms="8045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNestedFrames -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:58:52 IST" name="tearDown" finished-at="2026-01-29T23:58:54 IST" duration-ms="1093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNestedFrames status=SUCCESS method=InternetHerokuAppE2ETests.testNestedFrames()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTestClass()[pri:0, instance:com.hcl.tests.InternetHerokuAppE2ETests@13b6aecc]" started-at="2026-01-29T23:58:54 IST" name="afterTestClass" finished-at="2026-01-29T23:58:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestClass -->
+      </class> <!-- com.hcl.tests.InternetHerokuAppE2ETests -->
+      <class name="com.hcl.tests.LoginTC_Json">
+        <test-method is-config="true" signature="beforeSuiteSetup()[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:50:59 IST" name="beforeSuiteSetup" finished-at="2026-01-29T23:50:59 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method is-config="true" signature="beforeTestClass()[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:50:59 IST" name="beforeTestClass" finished-at="2026-01-29T23:50:59 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:50:59 IST" name="setup" finished-at="2026-01-29T23:50:59 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:51:00 IST" name="setup" finished-at="2026-01-29T23:51:24 IST" duration-ms="23719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_Json.testLoginWithJson(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithJson(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:51:24 IST" name="testLoginWithJson" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:51:31 IST" duration-ms="7069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithJson -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:51:31 IST" name="tearDown" finished-at="2026-01-29T23:51:33 IST" duration-ms="2858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithJson status=SUCCESS method=LoginTC_Json.testLoginWithJson(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:51:33 IST" name="setup" finished-at="2026-01-29T23:51:41 IST" duration-ms="7096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_Json.testLoginWithJson(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithJson(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:51:41 IST" name="testLoginWithJson" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:51:47 IST" duration-ms="6719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithJson -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:51:47 IST" name="tearDown" finished-at="2026-01-29T23:51:50 IST" duration-ms="2554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithJson status=SUCCESS method=LoginTC_Json.testLoginWithJson(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTestClass()[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:51:50 IST" name="afterTestClass" finished-at="2026-01-29T23:51:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestClass -->
+        <test-method is-config="true" signature="afterSuiteTearDown()[pri:0, instance:com.hcl.tests.LoginTC_Json@3d34d211]" started-at="2026-01-29T23:58:54 IST" name="afterSuiteTearDown" finished-at="2026-01-29T23:58:54 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTearDown -->
+      </class> <!-- com.hcl.tests.LoginTC_Json -->
+      <class name="com.hcl.tests.LoginTC_XML">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:53:44 IST" name="setup" finished-at="2026-01-29T23:53:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeTestClass()[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:53:44 IST" name="beforeTestClass" finished-at="2026-01-29T23:53:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestClass -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:53:44 IST" name="setup" finished-at="2026-01-29T23:53:54 IST" duration-ms="9760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_XML.testLoginWithXml(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithXml(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:53:54 IST" name="testLoginWithXml" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:54:00 IST" duration-ms="6791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithXml -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:54:00 IST" name="tearDown" finished-at="2026-01-29T23:54:03 IST" duration-ms="2175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithXml status=SUCCESS method=LoginTC_XML.testLoginWithXml(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:54:03 IST" name="setup" finished-at="2026-01-29T23:54:19 IST" duration-ms="16054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_XML.testLoginWithXml(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithXml(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:54:19 IST" name="testLoginWithXml" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:54:35 IST" duration-ms="16027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithXml -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:54:35 IST" name="tearDown" finished-at="2026-01-29T23:55:07 IST" duration-ms="32474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithXml status=SUCCESS method=LoginTC_XML.testLoginWithXml(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTestClass()[pri:0, instance:com.hcl.tests.LoginTC_XML@4988d8b8]" started-at="2026-01-29T23:55:07 IST" name="afterTestClass" finished-at="2026-01-29T23:55:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestClass -->
+      </class> <!-- com.hcl.tests.LoginTC_XML -->
+      <class name="com.hcl.tests.LoginTC_Csv">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:52:30 IST" name="setup" finished-at="2026-01-29T23:52:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeTestClass()[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:52:30 IST" name="beforeTestClass" finished-at="2026-01-29T23:52:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestClass -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:52:30 IST" name="setup" finished-at="2026-01-29T23:52:36 IST" duration-ms="6535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_Csv.testLoginWithCsv(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithCsv(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:52:36 IST" name="testLoginWithCsv" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:52:43 IST" duration-ms="6432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithCsv -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:52:43 IST" name="tearDown" finished-at="2026-01-29T23:52:44 IST" duration-ms="1888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithCsv status=SUCCESS method=LoginTC_Csv.testLoginWithCsv(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:52:44 IST" name="setup" finished-at="2026-01-29T23:53:04 IST" duration-ms="19589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_Csv.testLoginWithCsv(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithCsv(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:53:04 IST" name="testLoginWithCsv" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:53:11 IST" duration-ms="7486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithCsv -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:53:11 IST" name="tearDown" finished-at="2026-01-29T23:53:44 IST" duration-ms="32412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithCsv status=SUCCESS method=LoginTC_Csv.testLoginWithCsv(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTestClass()[pri:0, instance:com.hcl.tests.LoginTC_Csv@63475ace]" started-at="2026-01-29T23:53:44 IST" name="afterTestClass" finished-at="2026-01-29T23:53:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestClass -->
+      </class> <!-- com.hcl.tests.LoginTC_Csv -->
+      <class name="com.hcl.tests.LoginTC_Excel">
+        <test-method is-config="true" signature="beforeTestClass()[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:51:50 IST" name="beforeTestClass" finished-at="2026-01-29T23:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:51:50 IST" name="setup" finished-at="2026-01-29T23:51:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:51:51 IST" name="setup" finished-at="2026-01-29T23:52:00 IST" duration-ms="8126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_Excel.testLoginWithExcel(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithExcel(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:52:00 IST" name="testLoginWithExcel" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:52:07 IST" duration-ms="7086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:52:07 IST" name="tearDown" finished-at="2026-01-29T23:52:09 IST" duration-ms="2103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithExcel status=SUCCESS method=LoginTC_Excel.testLoginWithExcel(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:52:09 IST" name="setup" finished-at="2026-01-29T23:52:20 IST" duration-ms="11414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.tests.LoginTC_Excel.testLoginWithExcel(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithExcel(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:52:20 IST" name="testLoginWithExcel" description="Login test for Herokuapp" data-provider="testData" finished-at="2026-01-29T23:52:28 IST" duration-ms="7319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=tomsmith, password=SuperSecretPassword!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:52:28 IST" name="tearDown" finished-at="2026-01-29T23:52:30 IST" duration-ms="1968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithExcel status=SUCCESS method=LoginTC_Excel.testLoginWithExcel(java.util.Map)[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTestClass()[pri:0, instance:com.hcl.tests.LoginTC_Excel@2de23121]" started-at="2026-01-29T23:52:30 IST" name="afterTestClass" finished-at="2026-01-29T23:52:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestClass -->
+      </class> <!-- com.hcl.tests.LoginTC_Excel -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

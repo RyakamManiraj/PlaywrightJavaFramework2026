@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [HerokuAppTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="HerokuAppLoginTest2(failed)">
+    <classes>
+      <class name="com.hcl.tests.HerokuAppTest2">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="start"/>
+          <include name="afterSuiteTearDown"/>
+        </methods>
+      </class> <!-- com.hcl.tests.HerokuAppTest2 -->
+    </classes>
+  </test> <!-- HerokuAppLoginTest2(failed) -->
+  <test thread-count="3" parallel="tests" name="HerokuAppCheckboxDropdownTest(failed)">
+    <classes>
+      <class name="com.hcl.tests.CheckboxDropdownTest">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="testCheckboxes"/>
+          <include name="tearDown"/>
+          <include name="start"/>
+          <include name="afterSuiteTearDown"/>
+        </methods>
+      </class> <!-- com.hcl.tests.CheckboxDropdownTest -->
+    </classes>
+  </test> <!-- HerokuAppCheckboxDropdownTest(failed) -->
+</suite> <!-- Failed suite [HerokuAppTestSuite] -->

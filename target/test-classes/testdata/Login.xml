@@ -1,0 +1,10 @@
+<testdata>
+    <row>
+        <username>tomsmith</username>
+        <password>SuperSecretPassword!</password>
+    </row>
+    <row>
+        <username>tomsmith</username>
+        <password>SuperSecretPassword!</password>
+    </row>
+</testdata>

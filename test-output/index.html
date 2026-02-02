@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Automation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\akhil\eclipse-workspace\Playwright_Java_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods passed suite-Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Automation_Suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods passed suite-Automation_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.InternetHerokuAppE2ETests" class="method navigator-link" hash-for-method="testBrowserBackForward">testBrowserBackForward</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.InternetHerokuAppE2ETests" class="method navigator-link" hash-for-method="testDropdownSelection">testDropdownSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.InternetHerokuAppE2ETests" class="method navigator-link" hash-for-method="testFileUpload">testFileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.InternetHerokuAppE2ETests" class="method navigator-link" hash-for-method="testJSAlert">testJSAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.InternetHerokuAppE2ETests" class="method navigator-link" hash-for-method="testLoginAndFlashMessage">testLoginAndFlashMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_Csv" class="method navigator-link" hash-for-method="testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})">testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_Csv" class="method navigator-link" hash-for-method="testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})">testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_Excel" class="method navigator-link" hash-for-method="testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})">testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_Excel" class="method navigator-link" hash-for-method="testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})">testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_Json" class="method navigator-link" hash-for-method="testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})">testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_Json" class="method navigator-link" hash-for-method="testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})">testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_XML" class="method navigator-link" hash-for-method="testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})">testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.LoginTC_XML" class="method navigator-link" hash-for-method="testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})">testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.InternetHerokuAppE2ETests" class="method navigator-link" hash-for-method="testNavigationAndVisibility">testNavigationAndVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.hcl.tests.InternetHerokuAppE2ETests" class="method navigator-link" hash-for-method="testNestedFrames">testNestedFrames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Suite" class="panel Automation_Suite">
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.tests.InternetHerokuAppE2ETests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBrowserBackForward">
+                  </a> <!-- testBrowserBackForward -->
+                  <span class="method-name">testBrowserBackForward</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropdownSelection">
+                  </a> <!-- testDropdownSelection -->
+                  <span class="method-name">testDropdownSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFileUpload">
+                  </a> <!-- testFileUpload -->
+                  <span class="method-name">testFileUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJSAlert">
+                  </a> <!-- testJSAlert -->
+                  <span class="method-name">testJSAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAndFlashMessage">
+                  </a> <!-- testLoginAndFlashMessage -->
+                  <span class="method-name">testLoginAndFlashMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationAndVisibility">
+                  </a> <!-- testNavigationAndVisibility -->
+                  <span class="method-name">testNavigationAndVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNestedFrames">
+                  </a> <!-- testNestedFrames -->
+                  <span class="method-name">testNestedFrames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.tests.LoginTC_XML</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithXml({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithXml</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithXml({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithXml</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.tests.LoginTC_Excel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithExcel</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithExcel</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.tests.LoginTC_Csv</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithCsv</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithCsv</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.tests.LoginTC_Json</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithJson({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithJson</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})">
+                  </a> <!-- testLoginWithJson({username=tomsmith, password=SuperSecretPassword!}) -->
+                  <span class="method-name">testLoginWithJson</span>
+                  <span class="parameters">({username=tomsmith, password=SuperSecretPassword!})</span>
+                  <em>
+(Login test for Herokuapp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+        </div> <!-- panel Automation_Suite -->
+        <div panel-name="test-xml-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\akhil\eclipse-workspace\Playwright_Java_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Automation Suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;All Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.tests.LoginTC_Json&quot;/&gt;
+      &lt;class name=&quot;com.hcl.tests.LoginTC_Excel&quot;/&gt;
+      &lt;class name=&quot;com.hcl.tests.LoginTC_Csv&quot;/&gt;
+      &lt;class name=&quot;com.hcl.tests.LoginTC_XML&quot;/&gt;
+      &lt;class name=&quot;com.hcl.tests.InternetHerokuAppE2ETests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Tests --&gt;
+&lt;/suite&gt; &lt;!-- Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Tests (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Suite');
+function tableData_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoginWithXml')
+data.setCell(0, 2, 'com.hcl.tests.LoginTC_XML')
+data.setCell(0, 3, 16027);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginAndFlashMessage')
+data.setCell(1, 2, 'com.hcl.tests.InternetHerokuAppE2ETests')
+data.setCell(1, 3, 10404);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testBrowserBackForward')
+data.setCell(2, 2, 'com.hcl.tests.InternetHerokuAppE2ETests')
+data.setCell(2, 3, 8064);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testNestedFrames')
+data.setCell(3, 2, 'com.hcl.tests.InternetHerokuAppE2ETests')
+data.setCell(3, 3, 8045);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginWithCsv')
+data.setCell(4, 2, 'com.hcl.tests.LoginTC_Csv')
+data.setCell(4, 3, 7486);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testFileUpload')
+data.setCell(5, 2, 'com.hcl.tests.InternetHerokuAppE2ETests')
+data.setCell(5, 3, 7371);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginWithExcel')
+data.setCell(6, 2, 'com.hcl.tests.LoginTC_Excel')
+data.setCell(6, 3, 7319);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testNavigationAndVisibility')
+data.setCell(7, 2, 'com.hcl.tests.InternetHerokuAppE2ETests')
+data.setCell(7, 3, 7286);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDropdownSelection')
+data.setCell(8, 2, 'com.hcl.tests.InternetHerokuAppE2ETests')
+data.setCell(8, 3, 7233);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testJSAlert')
+data.setCell(9, 2, 'com.hcl.tests.InternetHerokuAppE2ETests')
+data.setCell(9, 3, 7187);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginWithExcel')
+data.setCell(10, 2, 'com.hcl.tests.LoginTC_Excel')
+data.setCell(10, 3, 7086);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoginWithJson')
+data.setCell(11, 2, 'com.hcl.tests.LoginTC_Json')
+data.setCell(11, 3, 7069);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLoginWithXml')
+data.setCell(12, 2, 'com.hcl.tests.LoginTC_XML')
+data.setCell(12, 3, 6791);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLoginWithJson')
+data.setCell(13, 2, 'com.hcl.tests.LoginTC_Json')
+data.setCell(13, 3, 6719);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginWithCsv')
+data.setCell(14, 2, 'com.hcl.tests.LoginTC_Csv')
+data.setCell(14, 3, 6432);
+window.suiteTableData['Automation_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Automation_Suite">
+              </div> <!-- times-div-Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hcl.tests.InternetHerokuAppE2ETests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteSetup</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hcl.tests.LoginTC_XML</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuiteTearDown</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuiteSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hcl.tests.LoginTC_Excel</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteSetup</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hcl.tests.LoginTC_Csv</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuiteTearDown</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuiteSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.tests.LoginTC_Json</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuiteSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTestClass</span>
+                <span class="method-start">605 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">620 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_Json.testLoginWithJson(java.util.Map))</span>
+                <span class="method-start">981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">24702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithJson status=SUCCESS method=LoginTC_Json.testLoginWithJson(java.util.Ma...)</span>
+                <span class="method-start">31776 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_Json.testLoginWithJson(java.util.Map))</span>
+                <span class="method-start">34636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithJson({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">41733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithJson status=SUCCESS method=LoginTC_Json.testLoginWithJson(java.util.Ma...)</span>
+                <span class="method-start">48454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTestClass</span>
+                <span class="method-start">51010 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.tests.LoginTC_Excel</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTestClass</span>
+                <span class="method-start">51011 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51012 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_Excel.testLoginWithExcel(java.util.Map))</span>
+                <span class="method-start">52678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">60805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithExcel status=SUCCESS method=LoginTC_Excel.testLoginWithExcel(java.util...)</span>
+                <span class="method-start">67893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_Excel.testLoginWithExcel(java.util.Map))</span>
+                <span class="method-start">69998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithExcel({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">81412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithExcel status=SUCCESS method=LoginTC_Excel.testLoginWithExcel(java.util...)</span>
+                <span class="method-start">88733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTestClass</span>
+                <span class="method-start">90702 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.tests.LoginTC_Csv</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">90703 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTestClass</span>
+                <span class="method-start">90703 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_Csv.testLoginWithCsv(java.util.Map))</span>
+                <span class="method-start">90732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">97267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithCsv status=SUCCESS method=LoginTC_Csv.testLoginWithCsv(java.util.Map)[...)</span>
+                <span class="method-start">103700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_Csv.testLoginWithCsv(java.util.Map))</span>
+                <span class="method-start">105589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithCsv({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">125179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithCsv status=SUCCESS method=LoginTC_Csv.testLoginWithCsv(java.util.Map)[...)</span>
+                <span class="method-start">132666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTestClass</span>
+                <span class="method-start">165079 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.tests.LoginTC_XML</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">165080 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTestClass</span>
+                <span class="method-start">165080 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_XML.testLoginWithXml(java.util.Map))</span>
+                <span class="method-start">165085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">174845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithXml status=SUCCESS method=LoginTC_XML.testLoginWithXml(java.util.Map)[...)</span>
+                <span class="method-start">181637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.LoginTC_XML.testLoginWithXml(java.util.Map))</span>
+                <span class="method-start">183813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithXml({username=tomsmith, password=SuperSecretPassword!})</span>
+                <span class="method-start">199868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithXml status=SUCCESS method=LoginTC_XML.testLoginWithXml(java.util.Map)[...)</span>
+                <span class="method-start">215897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTestClass</span>
+                <span class="method-start">248371 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.tests.InternetHerokuAppE2ETests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTestClass</span>
+                <span class="method-start">248372 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">248373 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.InternetHerokuAppE2ETests.testBrowserBackForward())</span>
+                <span class="method-start">248374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBrowserBackForward</span>
+                <span class="method-start">262146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testBrowserBackForward status=SUCCESS method=InternetHerokuAppE2ETests.testBrowserB...)</span>
+                <span class="method-start">270211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.InternetHerokuAppE2ETests.testDropdownSelection())</span>
+                <span class="method-start">301834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDropdownSelection</span>
+                <span class="method-start">315834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDropdownSelection status=SUCCESS method=InternetHerokuAppE2ETests.testDropdownS...)</span>
+                <span class="method-start">323070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.InternetHerokuAppE2ETests.testFileUpload())</span>
+                <span class="method-start">354500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFileUpload</span>
+                <span class="method-start">362704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testFileUpload status=SUCCESS method=InternetHerokuAppE2ETests.testFileUpload()[pri...)</span>
+                <span class="method-start">370075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.InternetHerokuAppE2ETests.testJSAlert())</span>
+                <span class="method-start">371282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testJSAlert</span>
+                <span class="method-start">387559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testJSAlert status=SUCCESS method=InternetHerokuAppE2ETests.testJSAlert()[pri:0, in...)</span>
+                <span class="method-start">394747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.InternetHerokuAppE2ETests.testLoginAndFlashMessage())</span>
+                <span class="method-start">396227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAndFlashMessage</span>
+                <span class="method-start">405497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginAndFlashMessage status=SUCCESS method=InternetHerokuAppE2ETests.testLoginA...)</span>
+                <span class="method-start">415902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.InternetHerokuAppE2ETests.testNavigationAndVisibility())</span>
+                <span class="method-start">420619 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationAndVisibility</span>
+                <span class="method-start">450622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testNavigationAndVisibility status=SUCCESS method=InternetHerokuAppE2ETests.testNav...)</span>
+                <span class="method-start">457910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.hcl.tests.InternetHerokuAppE2ETests.testNestedFrames())</span>
+                <span class="method-start">459041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNestedFrames</span>
+                <span class="method-start">465601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testNestedFrames status=SUCCESS method=InternetHerokuAppE2ETests.testNestedFrames()...)</span>
+                <span class="method-start">473647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTestClass</span>
+                <span class="method-start">474741 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.tests.LoginTC_Json</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuiteTearDown</span>
+                <span class="method-start">474783 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

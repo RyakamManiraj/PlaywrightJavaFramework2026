@@ -1,0 +1,72 @@
+<extentreports>
+    <configuration>
+        <!-- Report Theme and Layout -->
+        <theme>dark</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>HTTPS</protocol>
+        <documentTitle>Project XYZ Automation Report</documentTitle>
+        <reportName>Automation Test Execution Report</reportName>
+        <timelineEnabled>true</timelineEnabled>
+        <timelineDisplay>compact</timelineDisplay>
+        <chartLocation>top</chartLocation>
+
+        <!-- Default View Order -->
+        <viewOrder>
+            <view>dashboard</view>
+            <view>tests</view>
+            <view>categories</view>
+            <view>authors</view>
+        </viewOrder>
+
+        <!-- Chart Colors (Pass / Fail / Skip / Info) -->
+        <chartColors>
+            <passColor>#28a745</passColor>   <!-- Green -->
+            <failColor>#dc3545</failColor>   <!-- Red -->
+            <skipColor>#ffc107</skipColor>   <!-- Yellow -->
+            <infoColor>#17a2b8</infoColor>   <!-- Blue -->
+        </chartColors>
+
+        <!-- Branding / Logo -->
+        <customStyles>
+            <![CDATA[
+                body {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+                .logo img {
+                    content: url('https://yourcompany.com/logo.png'); /* Replace with your logo URL */
+                    width: 150px;
+                    height: auto;
+                }
+                .test-name {
+                    font-weight: bold;
+                    font-size: 1.1em;
+                }
+                .step-details {
+                    font-size: 0.9em;
+                }
+            ]]>
+        </customStyles>
+
+        <!-- Test Table Layout -->
+        <testView>
+            <showTestSteps>true</showTestSteps>
+            <showScreenshots>true</showScreenshots>
+            <showLogs>true</showLogs>
+            <showAuthors>true</showAuthors>
+            <showCategories>true</showCategories>
+        </testView>
+
+        <!-- Screenshot settings -->
+        <screenshot>
+            <displayInReport>true</displayInReport>
+            <displayOnHover>true</displayOnHover>
+        </screenshot>
+
+        <!-- Filters and Search -->
+        <filter>
+            <showCategoryFilter>true</showCategoryFilter>
+            <showAuthorFilter>true</showAuthorFilter>
+            <showStatusFilter>true</showStatusFilter>
+        </filter>
+    </configuration>
+</extentreports>

@@ -1,0 +1,11 @@
+<suite name="Automation Suite" parallel="classes" thread-count="1">
+	<test name="All Tests">
+		<classes>
+			<class name="com.hcl.tests.LoginTC_Json" />
+			<class name="com.hcl.tests.LoginTC_Excel" />
+			<class name="com.hcl.tests.LoginTC_Csv" />
+			<class name="com.hcl.tests.LoginTC_XML" />
+			<class name="com.hcl.tests.InternetHerokuAppE2ETests" />
+		</classes>
+	</test>
+</suite>
